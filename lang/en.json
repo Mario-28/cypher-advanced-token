@@ -1,0 +1,81 @@
+{
+  "CYPHERADVANCEDTOKEN": {
+    "SETTINGS": {
+      "enabled": {
+        "name": "Enable Advanced Token",
+        "hint": "Turn the module's token enhancements on or off."
+      },
+      "debug": {
+        "name": "Debug Logging",
+        "hint": "Log every canvas click and its hit-test result to the console."
+      }
+    },
+    "RADIAL": {
+      "appearance": "Appearance",
+      "range": "Range",
+      "inspect": "Inspect",
+      "evaluate": "Evaluate",
+      "light": "Light",
+      "about": "About",
+      "fight": "Fight!",
+      "fightEnter": "enters combat",
+      "fightLeave": "steps out of combat",
+      "fightDone": "{name} {state}.",
+      "fightFail": "Could not change combat state — the GM may need to start the encounter first.",
+      "settings": "Token Settings"
+    },
+    "HOVERART": {
+      "label": "Hover Art Image",
+      "hint": "Image displayed when APPEARANCE is chosen on the token's radial menu.",
+      "pick": "Browse image files",
+      "missing": "No Hover Art image set for this token.",
+      "title": "Drag to move · Scroll to zoom",
+      "videoLabel": "Hover Art Video (.webm)",
+      "videoPick": "Browse video files",
+      "videoHint": "Optional video that plays under the image when APPEARANCE is chosen (autoplay, muted — tap the speaker in the popup for sound).",
+      "muteToggle": "Toggle sound"
+    },
+    "DIALOG": {
+      "title": "Token Settings",
+      "saved": "Saved",
+      "noImage": "No image set",
+      "clear": "Clear",
+      "noActor": "This token has no actor to save settings on.",
+      "overrideNote": "A scene-token override is active on this token and wins over the actor value above.",
+      "clearOverride": "Clear override",
+      "tabs": {
+        "appearance": "Appearance",
+        "token": "Token"
+      }
+    },
+    "TOKENSTATES": {
+      "default": "Default",
+      "idle": "Idle",
+      "combatStance": "Combat Stance",
+      "attack": "Attack",
+      "hurt": "Hurt",
+      "mediumHurt": "Medium Hurt",
+      "veryHurt": "Very Hurt",
+      "down": "Down",
+      "sitting": "Sitting"
+    },
+    "RANGE": {
+      "immediate": "Immediate",
+      "short": "Short",
+      "long": "Long",
+      "veryLong": "Very Long",
+      "noToken": "Select your token first — RANGE measures from it.",
+      "m": "m"
+    },
+    "EVALUATE": {
+      "noLevel": "{name} has no discernible level.",
+      "noPC": "No player character available to evaluate with.",
+      "gmFail": "{name}: evaluation failed (rolled {die} vs TN {tn}).",
+      "tier": {
+        "exact": "Read",
+        "range": "Estimate",
+        "lie": "Estimate"
+      }
+    }
+  }
+}

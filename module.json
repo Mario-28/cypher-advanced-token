@@ -1,0 +1,35 @@
+{
+  "id": "cypher-advanced-token",
+  "title": "Cypher Advanced Token",
+  "description": "Advanced token overlays and interactions for the Cypher System",
+  "version": "1.5.22",
+  "authors": [
+    {
+      "name": "Module Developer"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "esmodules": [
+    "scripts/module.js"
+  ],
+  "styles": [
+    "styles/cypher-advanced-token.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "socket": true,
+  "flags": {
+    "cypher-advanced-token": {
+      "configurable": true
+    }
+  }
+}
